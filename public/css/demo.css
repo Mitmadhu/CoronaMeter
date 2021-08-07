@@ -1,0 +1,439 @@
+
+/*CSS for nav bar*/
+:root{
+	--skyColor: #b2f3ed;
+	--grayColor : #AAAAAA;
+}
+
+nav img{
+	margin: 0 20px;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #f7f7f7;
+}
+
+.navbar {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+
+/*
+headeer top
+*/
+
+.topbar {
+	background-color: #212529;
+	padding: 0;
+}
+
+.topbar .container .row {
+	margin: -7px;
+	padding: 0;
+}
+
+.topbar .container .row .col-md-12 {
+	padding: 0;
+}
+
+.topbar p {
+	margin: 0;
+	display: inline-block;
+	font-size: 13px;
+	color: #f1f6ff;
+}
+
+.topbar p>i {
+	margin-right: 5px;
+}
+
+.topbar p:last-child {
+	text-align: right;
+}
+
+header .navbar {
+	margin-bottom: 0;
+}
+
+.topbar li.topbar {
+	display: inline;
+	padding-right: 18px;
+	line-height: 52px;
+	transition: all .3s linear;
+}
+
+.topbar li.topbar:hover {
+	color: #1bbde8;
+}
+
+.topbar ul.info i {
+	color: #131313;
+	font-style: normal;
+	margin-right: 8px;
+	display: inline-block;
+	position: relative;
+	top: 4px;
+}
+
+.topbar ul.info li {
+	float: right;
+	padding-left: 30px;
+	color: #ffffff;
+	font-size: 13px;
+	line-height: 44px;
+}
+
+.topbar ul.info i span {
+	color: #aaa;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 50px;
+	padding-left: 18px;
+}
+
+ul.social-network {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.social-network li {
+	border: none;
+	margin: 0;
+}
+
+ul.social-network li i {
+	margin: 0;
+}
+
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+	border: 0px solid #2D2D2D;
+	padding: 5px 0 0;
+	width: 32px;
+	display: inline-block;
+	text-align: center;
+	height: 32px;
+	vertical-align: baseline;
+	color: #000;
+}
+
+ul.social-network {
+	list-style: none;
+	margin: 5px 0 10px -25px;
+	float: right;
+}
+
+.waves-effect {
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	overflow: hidden;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+	vertical-align: middle;
+	z-index: 1;
+	will-change: opacity, transform;
+	transition: .3s ease-out;
+	color: #fff;
+}
+
+a {
+	color: #0a0a0a;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.bg-image-full {
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+.bg-dark {
+	background-color: #222!important;
+}
+
+.mx-background-top-linear {
+	background: -webkit-linear-gradient(45deg, var(--skyColor) 48%, #1b1e21 48%);
+	background: -webkit-linear-gradient(left, var(--skyColor) 48%, #1b1e21 48%);
+	background: linear-gradient(45deg, var(--skyColor) 48%, #1b1e21 48%);
+}
+
+/*copyright footer css*/
+
+#copyright {
+    /*position: absolute;*/
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 12vh;
+    background: #c8f7f0;
+    text-align: center;
+  	line-height: 50px;
+}
+
+
+/*Home page css*/
+
+.custom-margin{
+	margin: 30px 0px;
+}
+.main-page-banner{
+	margin-bottom: 30px;
+}
+.main-page-banner img{
+    width: 100%;
+}
+
+.main-page-text h2{
+	text-align: center;
+}
+
+.corona-record .row-wise{
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.row-wise .item{
+	justify-content:space-between;
+	flex: 1;
+	border: 2px solid #00000073;
+  margin: 10px 10px;
+  box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+	-webkit-box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+	-moz-box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+}
+.row-wise .item .header{
+	height: 40px;
+	text-align:center;
+	border-bottom: 1px solid var(--grayColor);
+	margin-top: 10px;
+	font-weight: 800;
+	
+}
+.row-wise .item .header a{
+	text-decoration: none;
+}
+.row-wise .item .header h4{
+	font-weight: 600;
+	color: #b55e5e
+}
+.row-wise .item .itemData{
+		display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--skyColor);
+    padding-top: 10px;
+}
+
+
+/*css for bottom arrow*/
+.getMore{
+	margin: 50px 0px;
+	text-align: center;
+	font-size: 19px;
+	font-weight: 500;
+	text-color: #113f67;
+}
+.arrow {
+  border: solid #113f67;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/*home page bottom graph*/
+
+.column-flex{
+	display: flex;
+	flex-direction: column;
+}
+
+.india-graph{
+	display: flex;
+	margin-top: 40px;
+	flex: 1;
+	flex-wrap: wrap;
+}
+
+.india-graph .india-graph-card{
+	justify-content: space-between;
+	border: 2px solid  #00000073;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+	-webkit-box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+	-moz-box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+	
+}
+.india-graph .india-graph-card .india-graph-card-header{
+	color:  #1b1e21cc;
+	border-bottom: 1px solid var(--grayColor);
+}
+.india-graph .india-graph-card .india-graph-card-header h5{
+	text-align: center;
+	font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
+  
+}
+.india-graph .india-graph-card .india-graph-card-data{
+	padding: 10px;
+}
+
+.column-flex .corona-info{
+	border: 2px solid #00000073;
+	width: 35%;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+	-webkit-box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+	-moz-box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+}
+
+.corona-info-header{
+	color:   #1b1e21cc;;
+	border-bottom: 1px solid var(--grayColor);
+}
+
+.corona-info-header h5{
+	text-align: center;
+	font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
+}
+.corona-info-body{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--skyColor);
+    padding-top: 10px;
+}
+
+/*Css for corona dashboard page*/
+.state-wise-records{
+	margin-top: 40px;
+}
+
+li {
+    font-size: 17px;
+    margin-left: 10px;
+    list-style-type: circle;
+}
+
+/*css for state wise info */
+.dist-wise-records{
+	margin-top: 40px;
+}
+
+.state-column-flex{
+	display: flex;
+	flex-direction: column;
+}
+
+.state-graph{
+	display: flex;
+	margin-top: 40px;
+	flex: 1;
+	flex-wrap: wrap;
+}
+
+.state-graph .state-graph-card{
+	justify-content: space-between;
+	border: 2px solid  #00000073;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+	-webkit-box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+	-moz-box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+	margin-top: 30px;
+	
+}
+.state-graph .state-graph-card .state-graph-card-header{
+	color:  #1b1e21cc;
+	border-bottom: 1px solid var(--grayColor);
+}
+.state-graph .state-graph-card .state-graph-card-header h5{
+	text-align: center;
+	font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
+  
+}
+.state-graph .state-graph-card .state-graph-card-data{
+	padding: 10px;
+}
+
+.state-column-flex .corona-info{
+	border: 2px solid #00000073;
+	width: 35%;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+	-webkit-box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+	-moz-box-shadow: 12px 14px 5px -6px rgba(0,0,0,0.44);
+}
+
+.state-column-flex .corona-info-header{
+	color:   #1b1e21cc;;
+	border-bottom: 1px solid var(--grayColor);
+}
+
+.state-column-flex .corona-info-header h5{
+	text-align: center;
+	font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
+}
+.state-column-flex .corona-info-body{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--skyColor);
+    padding-top: 10px;
+}
+.my-ag-table{
+	margin:  50px auto 60px auto;
+}
+
+
+/*vaccination page css*/
+.vaccine-records{
+	margin: auto;
+}
+
